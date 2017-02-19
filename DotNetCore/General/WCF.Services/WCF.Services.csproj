@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**\*.cs" />
+    <EmbeddedResource Include="**\*.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="1.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCF.Contracts\WCF.Contracts.csproj" />
+    <ProjectReference Include="..\WCF.Data\WCF.Data.csproj" />
+  </ItemGroup>
+</Project>
