@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Shogun</authors>
+    <owners>Shogun</owners>      
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Just test</description>   
+    <copyright>Copyright (c) 2016 by Shogun</copyright>   
+  </metadata>
+</package>
